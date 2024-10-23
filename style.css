@@ -45,6 +45,7 @@ aside {
 }
 .slider div:not(div:first-child){
   display: none;
+  transition: opacity 0.5s ease-in-out;
 }
 aside p{
     color:black;
@@ -65,3 +66,9 @@ aside header{
     background-color:#222d52;
     z-index: 999;
 }
+.fa-envelope{
+  font-family: fontAwsome;
+  color:white !important;
+  z-index: 999;
+}
+
